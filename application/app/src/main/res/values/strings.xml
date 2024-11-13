@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Fronce Quizz</string>
+    <string name="title">Fronce Quizz</string>
+    <string name="fronce">Fronce</string>
+    <string name="departements">Départements</string>
+    <string name="regions">Régions</string>
+    <string name="mapId">9706f8d9de4ad29e</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="abandon">Abandon</string>
+    <string name="quitter">Quitter</string>
+</resources>

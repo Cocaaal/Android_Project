@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:http="http://schemas.android.com/tools"
+    android:id="@+id/myCardItem"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginBottom="5dp"
+    android:padding="10dp"
+    app:cardBackgroundColor="@color/white"
+    app:cardElevation="4dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/meilleur_score"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/spectral_italic"
+            android:text="Meilleur score : 10/15"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toStartOf="@+id/quizz_viewholder_nom_ville"
+            app:layout_constraintTop_toBottomOf="@+id/quizz_viewholder_nom_ville" />
+
+        <TextView
+            android:id="@+id/quizz_viewholder_nom_ville"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="24dp"
+            android:fontFamily="@font/marianne_bold"
+            android:text="random title"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toEndOf="@+id/logo_image"
+            app:layout_constraintTop_toTopOf="@+id/logo_image" />
+
+        <ImageView
+            android:id="@+id/logo_image"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:contentDescription="logo"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>
