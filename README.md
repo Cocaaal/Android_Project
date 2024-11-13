@@ -1,8 +1,18 @@
-API Découpage administratif de france : https://geo.api.gouv.fr/decoupage-administratif
+# Projet Android
 
-Site pour avoir les images de chaque département etc : https://d-maps.com/pays.php?num_pay=2189&lang=en
-(Récupérer lien des images)
+## Corentin LEBLEU
 
-Fond de carte des départements : https://france.comersis.com/maps/dpts/Nord-59.png
-Logo des départements : https://www.regions-departements-france.fr/logos-departements-francais.html
-Logo des régions : https://www.regions-departements-france.fr/logos-regions-francaises.html 
+### Technologies :
+Java avec Android Studio
+
+### Sources :
+
+* API Découpage administratif de france : https://geo.api.gouv.fr/decoupage-administratif
+* Logo des départements : https://www.regions-departements-france.fr/logos-departements-francais.html
+* Logo des régions : https://www.regions-departements-france.fr/logos-regions-francaises.html
+
+### Vidéo :
+
+
+https://github.com/user-attachments/assets/d7f2fa9c-5dac-4c13-8bee-aaf0b8a414ca
+
